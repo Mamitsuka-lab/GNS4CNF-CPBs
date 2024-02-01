@@ -1,4 +1,4 @@
-# Graph network-based simulation of multicellular dynamics driven by polymer brush-modified cellulose nanofibers
+# GNS4CNF-CPBs
 
 ## Paper
 
