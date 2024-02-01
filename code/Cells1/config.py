@@ -1,12 +1,15 @@
 import os
 
+
+
+
 C_DIR = os.path.dirname(os.path.realpath(__file__))
 
-DATA_DIR = "%s/datax" % C_DIR
+DATA_DIR = "%s/data1" % C_DIR
+ORIGIN_DATA_DIR = "%s/../CellData/" % C_DIR
 
 TEST1_DIR = "%s/hHigh" % DATA_DIR
 TEST2_DIR = "%s/ControlHX" % DATA_DIR
-ORIGIN_DATA_DIR = "/home/gpux1/Downloads/CellData"
 MODEL_DIRS = "/tmp/modelsx"
 ROLLOUT_DIRS = "/tmp/rolloutsx"
 CLEAN = False

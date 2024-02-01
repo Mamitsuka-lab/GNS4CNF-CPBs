@@ -115,7 +115,7 @@ def load_files(dir_path):
     # rename
     for i, filep in enumerate(filesv):
         dir = "/".join(filep.split("/")[:-1])
-        cmd = "mv \"%s\" %s/%s.avi" % (filep, dir, i)
+        cmd = "mv \"%s\" \"%s/%s.avi\"" % (filep, dir, i)
         print(cmd)
         os.system(cmd)    # print(files)
 

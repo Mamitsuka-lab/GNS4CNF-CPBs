@@ -6,7 +6,7 @@ DATA_DIR = "%s/data3" % C_DIR
 
 TEST1_DIR = "%s/hHigh" % DATA_DIR
 TEST2_DIR = "%s/ControlHX" % DATA_DIR
-ORIGIN_DATA_DIR = "/home/gpux1/Downloads/CellData"
+ORIGIN_DATA_DIR = "%s/../CellData/" % C_DIR
 MODEL_DIRS = "/tmp/models3"
 ROLLOUT_DIRS = "/tmp/rollouts3"
 DATA_PREX = "hmsc"

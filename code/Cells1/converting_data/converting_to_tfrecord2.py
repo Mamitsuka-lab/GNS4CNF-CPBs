@@ -123,7 +123,7 @@ def load_files(dir_path):
     # rename
     for i, filep in enumerate(filesv):
         dir = "/".join(filep.split("/")[:-1])
-        cmd = "mv \"%s\" %s/%s.avi" % (filep, dir, i)
+        cmd = "mv \"%s\" \"%s/%s.avi\"" % (filep, dir, i)
         print(cmd)
         os.system(cmd)
     # print(files)
@@ -266,6 +266,7 @@ if __name__ == "__main__":
     from converting_data.gen_files import create_bash_script
     create_bash_script("%s/run_1" % config.C_DIR)
     for dir_path in glob.glob("%s/*_*/"%config.DATA_DIR):
+        print(dir_path)
         convert_files(dir_path=dir_path, test_on_train=False, test_all=True)
     # for dir_path in ["/home/gpux1/Codes/Cells/data/hmsc_high"]:
     #    convert_files(dir_path, test_on_train=True)

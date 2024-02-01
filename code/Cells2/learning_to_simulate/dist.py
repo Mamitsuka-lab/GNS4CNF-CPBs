@@ -1,5 +1,5 @@
 import numpy as np
-from skbio.stats.distance import mantel
+# from skbio.stats.distance import mantel
 import ot
 from sklearn.metrics import mean_squared_error as mse
 from scipy import spatial

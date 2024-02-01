@@ -1,6 +1,6 @@
-chondro_low
-chondro_high
-chondro_control
 hmsc_control
 hmsc_low
 hmsc_high
+chondro_control
+chondro_low
+chondro_high
