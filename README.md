@@ -115,5 +115,5 @@ E.g. ./run_1_rendering.sh chondro_high test 0
 The output of the rendering is at the corresponding data folder (e.g. Cells1/data1/chondro_high).
 
 Example: 
-![Example CH_0](figs/CH_0.gif)
+![Example CH_0](code/figs/CH_0.gif)
 
