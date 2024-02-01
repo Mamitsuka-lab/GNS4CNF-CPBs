@@ -1,0 +1,10 @@
+__pycache__/*
+.idea/*
+.git/*
+*.sh
+pw
+data/*/*.gif
+data/*/*/*.gif
+data/*
+datax/*
+data3/*
